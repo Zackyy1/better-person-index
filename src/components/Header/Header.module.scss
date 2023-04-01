@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .logoContainer:hover {
+        > div {
+            max-width: 100%;
+
+            &:not(:first-child) {
+
+                margin-left: 12px;
+            }
+
+            transition: 0.2s ease;
+        }
+    }
+}
+
+.logoContainer {
+    font-family: 'Chivo Mono', monospace;
+
+    &>div {
+        overflow: hidden;
+        font-size: 40px;
+        line-height: 48px;
+        max-width: 24px;
+        margin-left: 0;
+        transition: 0.2s ease;
+    }
+}

@@ -1,0 +1,35 @@
+.calendar {
+    background: #ffffff00;
+    border: 1px solid #565656;
+    border-radius: 12px;
+    padding: 24px;
+    // width: 100%;
+    font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+    max-width: 480px;
+
+    margin: 48px auto;
+
+    button:disabled {
+        background: transparent;
+    }
+
+    abbr {
+        z-index: 2;
+    }
+
+    button:enabled {
+
+        &:hover {
+            background: #ffffff11 !important;
+            border-radius: 12px;
+        }
+
+        &:active {
+            background: #ffffff22 !important;
+            border-radius: 12px;
+        }
+    }
+
+
+}
